@@ -13,7 +13,7 @@
     <artifactId>jcurl</artifactId>
     <version>0.9.19-atlassian-3-SNAPSHOT</version>
     <name>JCurl</name>
-    <url>https://github.com/symphonyoss/jcurl</url>
+    <url>https://github.com/atlassian-forks/jcurl</url>
     <description>JSON-aware curl(1) in Java</description>
 
     <!--
@@ -48,7 +48,7 @@
     <scm>
         <connection>scm:git:git://github.com/atlassian-forks/jcurl.git</connection>
         <developerConnection>scm:git:git@github.com:atlassian-forks/jcurl.git</developerConnection>
-        <url>https://github.com/symphonyoss/jcurl</url>
+        <url>https://github.com/atlassian-forks/jcurl</url>
     </scm>
 
     <developers>
