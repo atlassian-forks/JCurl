@@ -65,8 +65,8 @@ import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
 
 /**
- * <h1>JSON-aware curl (1) in Java</h1>
- * <b>Usage</b>
+ * JSON-aware curl (1) in Java
+ * Usage
  * <pre>
  * //Get a session token
  *
@@ -253,7 +253,7 @@ public class JCurl {
         }
 
         /**
-         * Set request query parameters to be appended to the target URL as "name=value" pairs separated by "&";
+         * Set request query parameters to be appended to the target URL as "name=value" pairs separated by "&amp;"
          *
          * @param name
          * @param value
@@ -1337,7 +1337,7 @@ public class JCurl {
 
         /**
          * Return a copy of the map of all tags captured as a result
-         * of a call to {@link Builder.extract(String,String)}
+         * of a call to Builder.(String,String)
          *
          * @return a copy of the map of named tags.
          */
@@ -1347,7 +1347,7 @@ public class JCurl {
 
         /**
          * Return a copy of the list of all tags captured as a result
-         * of a call to {@link Builder.extract(String)}
+         * of a call to Builder.extract(String)
          *
          * @return a copy of the list of indexed tags.
          */
@@ -1423,8 +1423,8 @@ public class JCurl {
 
   /**
    * Perform a HTTP(s) request to the provided URL. Unless a different configuration is specified with JCurl.Builder,
-   * performs a GET request with Content-Type: application/json, expecting a HTTP 200 response.
-   * This method requires the URL to have been set with {@link JCurl.Builder.url()}.
+   * performs a GET request with Content-Type: application/json, expecting an HTTP 200 response.
+   * This method requires the URL to have been set with JCurl.Builder.url(String)
    *
    * @return a {@link java.net.HttpURLConnection} object.
    * @throws java.io.IOException if any.
