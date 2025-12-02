@@ -49,7 +49,6 @@
         <connection>scm:git:git://github.com/atlassian-forks/jcurl.git</connection>
         <developerConnection>scm:git:git@github.com:atlassian-forks/jcurl.git</developerConnection>
         <url>https://github.com/symphonyoss/jcurl</url>
-        <tag>jcurl-0.9.16-SNAPSHOT</tag>
     </scm>
 
     <developers>
