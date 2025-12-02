@@ -11,7 +11,7 @@
 
     <groupId>org.symphonyoss.symphony</groupId>
     <artifactId>jcurl</artifactId>
-    <version>0.9.19-atlassian-1-SNAPSHOT</version>
+    <version>0.9.19-atlassian-2</version>
     <name>JCurl</name>
     <url>https://github.com/symphonyoss/jcurl</url>
     <description>JSON-aware curl(1) in Java</description>
@@ -49,7 +49,7 @@
         <connection>scm:git:git://github.com/atlassian-forks/jcurl.git</connection>
         <developerConnection>scm:git:git@github.com:atlassian-forks/jcurl.git</developerConnection>
         <url>https://github.com/symphonyoss/jcurl</url>
-        <tag>jcurl-0.9.16-SNAPSHOT</tag>
+        <tag>jcurl-0.9.19-atlassian-2</tag>
     </scm>
 
     <developers>
