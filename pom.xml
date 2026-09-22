@@ -105,7 +105,7 @@
     </contributors>
 
     <properties>
-        <jackson.version>2.20.1</jackson.version>
+        <jackson.version>2.21.6</jackson.version>
         <junit.version>4.13.2</junit.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
